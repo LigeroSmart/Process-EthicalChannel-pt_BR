@@ -1,0 +1,953 @@
+---
+Activities:
+  Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad:
+    ActivityDialogs:
+    - ActivityDialog-ecc2fcaa6da1fd6e226c3369c6a42634
+    - ActivityDialog-90cd916437050012613ac333aa5afdd5
+    - ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f
+    - ActivityDialog-764b36e5b08bc2ccb57c7662e5fa78c4
+    - ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-08-31 16:47:26
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-ecc2fcaa6da1fd6e226c3369c6a42634
+        '2': ActivityDialog-90cd916437050012613ac333aa5afdd5
+        '3': ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f
+        '4': ActivityDialog-764b36e5b08bc2ccb57c7662e5fa78c4
+        '5': ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405
+        '6': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-14 08:20:49
+    EntityID: Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad
+    ID: '7'
+    Name: Parecer Comitê
+  Activity-36f50f5d6bada897e36db20d743ecb08:
+    ActivityDialogs:
+    - ActivityDialog-845048ee2e3d9b0eb00205750d096032
+    - ActivityDialog-a6e374e802ae26c1226c732826b1712e
+    - ActivityDialog-c84967b15ad3224e4913d3a77a8837f0
+    - ActivityDialog-90cd916437050012613ac333aa5afdd5
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-08-30 17:54:45
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-845048ee2e3d9b0eb00205750d096032
+        '2': ActivityDialog-a6e374e802ae26c1226c732826b1712e
+        '3': ActivityDialog-c84967b15ad3224e4913d3a77a8837f0
+        '4': ActivityDialog-90cd916437050012613ac333aa5afdd5
+        '5': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-13 19:52:20
+    EntityID: Activity-36f50f5d6bada897e36db20d743ecb08
+    ID: '5'
+    Name: Apuração
+  Activity-49088cf93d719043d0db1a7db3ec4ff2:
+    ActivityDialogs:
+    - ActivityDialog-c84967b15ad3224e4913d3a77a8837f0
+    - ActivityDialog-3028dfa38c62695c86d84271a8271dc7
+    - ActivityDialog-90cd916437050012613ac333aa5afdd5
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-09-14 16:06:12
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-c84967b15ad3224e4913d3a77a8837f0
+        '2': ActivityDialog-3028dfa38c62695c86d84271a8271dc7
+        '3': ActivityDialog-90cd916437050012613ac333aa5afdd5
+        '4': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-13 19:31:54
+    EntityID: Activity-49088cf93d719043d0db1a7db3ec4ff2
+    ID: '4'
+    Name: Intimação
+  Activity-86792533214e2fc3eb1ff13026f08fc4:
+    ActivityDialogs: []
+    ChangeTime: 2017-08-14 08:25:31
+    Config: {}
+    CreateTime: 2017-08-14 08:25:31
+    EntityID: Activity-86792533214e2fc3eb1ff13026f08fc4
+    ID: '9'
+    Name: Fechamento
+  Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f:
+    ActivityDialogs:
+    - ActivityDialog-90cd916437050012613ac333aa5afdd5
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-09-14 16:06:08
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-90cd916437050012613ac333aa5afdd5
+        '2': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-13 18:52:52
+    EntityID: Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f
+    ID: '3'
+    Name: Classificar relato
+  Activity-b7cd6d6432537d2378b65c7505acb29e:
+    ActivityDialogs:
+    - ActivityDialog-1308982f101be105f49f15d3fe81ef1c
+    - ActivityDialog-92e49ba2106c8d3a9042bcdfc51c0192
+    - ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f
+    - ActivityDialog-90cd916437050012613ac333aa5afdd5
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-08-30 18:24:19
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-1308982f101be105f49f15d3fe81ef1c
+        '2': ActivityDialog-92e49ba2106c8d3a9042bcdfc51c0192
+        '3': ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f
+        '4': ActivityDialog-90cd916437050012613ac333aa5afdd5
+        '5': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-14 08:06:59
+    EntityID: Activity-b7cd6d6432537d2378b65c7505acb29e
+    ID: '6'
+    Name: Parecer Compliance
+  Activity-e6b9b84754d40051e2cad3959c6afde1:
+    ActivityDialogs:
+    - ActivityDialog-bf810f32588e6d18ea2f59ceb47ed441
+    - ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405
+    - ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ChangeTime: 2017-08-30 17:56:42
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-bf810f32588e6d18ea2f59ceb47ed441
+        '2': ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405
+        '3': ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    CreateTime: 2017-08-14 08:25:14
+    EntityID: Activity-e6b9b84754d40051e2cad3959c6afde1
+    ID: '8'
+    Name: Acompanhamento de medidas
+  Activity-ec5f2ac8f613e458d375be385c30e9b2:
+    ActivityDialogs:
+    - ActivityDialog-eb3f8433340955e7b7c25877f5ec027d
+    ChangeTime: 2017-08-13 18:39:27
+    Config:
+      ActivityDialog:
+        '1': ActivityDialog-eb3f8433340955e7b7c25877f5ec027d
+    CreateTime: 2017-08-13 18:37:05
+    EntityID: Activity-ec5f2ac8f613e458d375be385c30e9b2
+    ID: '2'
+    Name: Registro de Relato
+ActivityDialogs:
+  ActivityDialog-1308982f101be105f49f15d3fe81ef1c:
+    ChangeTime: 2017-08-30 17:54:00
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Registrar um parecer do Compliance sem enviá-lo ao comunicante
+      FieldOrder:
+      - DynamicField_Subject
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: Parecer Compliance-interno
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Subject:
+          DefaultValue: Parecer Compliance
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:17:35
+    EntityID: ActivityDialog-1308982f101be105f49f15d3fe81ef1c
+    ID: '7'
+    Name: Parecer Compliance
+  ActivityDialog-3028dfa38c62695c86d84271a8271dc7:
+    ChangeTime: 2017-08-30 17:52:09
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Intimar as partes
+      FieldOrder:
+      - State
+      - Queue
+      - DynamicField_intimarSimNao
+      Fields:
+        DynamicField_intimarSimNao:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        Queue:
+          DefaultValue: Canal Ético::Apuração
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        State:
+          DefaultValue: Apuração
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-13 19:34:52
+    EntityID: ActivityDialog-3028dfa38c62695c86d84271a8271dc7
+    ID: '3'
+    Name: Finalizar intimação
+  ActivityDialog-764b36e5b08bc2ccb57c7662e5fa78c4:
+    ChangeTime: 2017-08-31 11:19:26
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Solicitar acompanhamento das medidas
+      FieldOrder:
+      - DynamicField_acompanhamentoMedidas
+      - PendingTime
+      - Article
+      - DynamicField_Subject
+      - DynamicField_Body
+      - State
+      - Queue
+      Fields:
+        Article:
+          Config:
+            ArticleType: note-internal
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Body:
+          DefaultValue: '-'
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Subject:
+          DefaultValue: Solicitar Acompanhamento
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_acompanhamentoMedidas:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        PendingTime:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: Verificar em
+          Display: '1'
+        Queue:
+          DefaultValue: Canal Ético::Acompanhamento de medidas
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        State:
+          DefaultValue: Acompanhamento de medidas
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:36:33
+    EntityID: ActivityDialog-764b36e5b08bc2ccb57c7662e5fa78c4
+    ID: '11'
+    Name: Solicitar acompanhamento
+  ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f:
+    ChangeTime: 2017-08-30 18:24:52
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Retomar Apuração
+      FieldOrder:
+      - DynamicField_retornaApuracao
+      - State
+      Fields:
+        DynamicField_retornaApuracao:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        State:
+          DefaultValue: Apuração
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: '0'
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-30 18:23:21
+    EntityID: ActivityDialog-7d5a46dc6513e585bdc3cf309f856a8f
+    ID: '18'
+    Name: Retomar Apuração
+  ActivityDialog-845048ee2e3d9b0eb00205750d096032:
+    ChangeTime: 2017-08-30 17:53:06
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Incluir relato apenas para acompanhamento interno
+      FieldOrder:
+      - DynamicField_Subject
+      - DynamicField_etapadeAvaliacao
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: Relato-interno (Apuração)
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Subject:
+          DefaultValue: Relato Apuração
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_etapadeAvaliacao:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:05:19
+    EntityID: ActivityDialog-845048ee2e3d9b0eb00205750d096032
+    ID: '5'
+    Name: Relato Apuração
+  ActivityDialog-90cd916437050012613ac333aa5afdd5:
+    ChangeTime: 2017-08-30 17:51:11
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Classificar novos relatos
+      FieldOrder:
+      - DynamicField_Body
+      - DynamicField_Subject
+      - Service
+      - DynamicField_LocalDenuncia
+      - Queue
+      - State
+      - SLA
+      - DynamicField_NomeCitado
+      - DynamicField_RG
+      - DynamicField_DRT
+      - DynamicField_Unidade
+      - DynamicField_OutraLocalidade
+      - DynamicField_Setor
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: Classificação-interno
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Body:
+          DefaultValue: '-'
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_DRT:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_LocalDenuncia:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_NomeCitado:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_OutraLocalidade:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_RG:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Setor:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Subject:
+          DefaultValue: Classificação do relato
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Unidade:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        Queue:
+          DefaultValue: Canal Ético::Intimação
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        SLA:
+          DefaultValue: SLA Padrão
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        Service:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        State:
+          DefaultValue: Intimação
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: '0'
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-13 19:07:58
+    EntityID: ActivityDialog-90cd916437050012613ac333aa5afdd5
+    ID: '2'
+    Name: Classificar Relato
+  ActivityDialog-92e49ba2106c8d3a9042bcdfc51c0192:
+    ChangeTime: 2017-08-30 17:52:22
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Finalizar parecer Compliance
+      FieldOrder:
+      - State
+      - Queue
+      - DynamicField_parecerComplianceFinalizado
+      Fields:
+        DynamicField_parecerComplianceFinalizado:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        Queue:
+          DefaultValue: Canal Ético::Parecer comitê
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        State:
+          DefaultValue: Parecer comitê
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:19:49
+    EntityID: ActivityDialog-92e49ba2106c8d3a9042bcdfc51c0192
+    ID: '9'
+    Name: Finalizar parecer Compliance
+  ActivityDialog-a6e374e802ae26c1226c732826b1712e:
+    ChangeTime: 2017-08-30 17:51:57
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Finalizar apuração
+      FieldOrder:
+      - State
+      - Queue
+      - DynamicField_apuracaoFinalizada
+      Fields:
+        DynamicField_apuracaoFinalizada:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        Queue:
+          DefaultValue: Canal Ético::Parecer compliance
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        State:
+          DefaultValue: Parecer compliance
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:13:12
+    EntityID: ActivityDialog-a6e374e802ae26c1226c732826b1712e
+    ID: '6'
+    Name: Finalizar Apuração
+  ActivityDialog-bf810f32588e6d18ea2f59ceb47ed441:
+    ChangeTime: 2017-08-30 17:53:38
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Realizar registro de acompanhamento (visível apenas para Compliance)
+      FieldOrder:
+      - DynamicField_Subject
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: note-internal
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Subject:
+          DefaultValue: Registro Compliance
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-24 14:36:17
+    EntityID: ActivityDialog-bf810f32588e6d18ea2f59ceb47ed441
+    ID: '16'
+    Name: Registro Compliance
+  ActivityDialog-c84967b15ad3224e4913d3a77a8837f0:
+    ChangeTime: 2017-08-30 17:51:30
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Fazer Intimação
+      FieldOrder: []
+      Fields: {}
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: '0'
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-21 11:33:02
+    EntityID: ActivityDialog-c84967b15ad3224e4913d3a77a8837f0
+    ID: '13'
+    Name: Fazer Intimação
+  ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405:
+    ChangeTime: 2017-08-31 11:21:48
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Encerramento definitivo da comunicação
+      FieldOrder:
+      - Queue
+      - DynamicField_encerramantoComunicacao
+      - Article
+      - DynamicField_Subject
+      - DynamicField_Body
+      Fields:
+        Article:
+          Config:
+            ArticleType: Parecer Compliance-interno
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Body:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_Subject:
+          DefaultValue: Relatório de Encerramento de Medidas
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_encerramantoComunicacao:
+          DefaultValue: Sim
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        Queue:
+          DefaultValue: Canal Ético::Fechamento
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: '0'
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 08:35:39
+    EntityID: ActivityDialog-d0a04c787ef3b2ac23b6628fd0006405
+    ID: '10'
+    Name: Fechar comunicação
+  ActivityDialog-eb3f8433340955e7b7c25877f5ec027d:
+    ChangeTime: 2017-08-30 17:53:15
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Registrar um novo relato
+      FieldOrder:
+      - Queue
+      - State
+      - DynamicField_LocalDenuncia
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: webrequest
+            TimeUnits: '0'
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_LocalDenuncia:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        Queue:
+          DefaultValue: Canal Ético::Classificar relato
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+        State:
+          DefaultValue: Classificar relato
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '0'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-13 18:39:20
+    EntityID: ActivityDialog-eb3f8433340955e7b7c25877f5ec027d
+    ID: '1'
+    Name: Registro de Relato
+  ActivityDialog-ecc2fcaa6da1fd6e226c3369c6a42634:
+    ChangeTime: 2017-08-30 17:52:35
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Registrar um parecer do Comitê sem enviá-lo ao comunicante
+      FieldOrder:
+      - DynamicField_Subject
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: Parecer Comitê-interno
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Subject:
+          DefaultValue: Parecer Comitê
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: 0
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-22 11:52:13
+    EntityID: ActivityDialog-ecc2fcaa6da1fd6e226c3369c6a42634
+    ID: '14'
+    Name: Parecer Comitê
+  ActivityDialog-fa3831cb9c00165663d2474a0f46e89c:
+    ChangeTime: 2017-09-14 16:05:09
+    Config:
+      DescriptionLong: ''
+      DescriptionShort: Incluir relato para acompanhamento do comunicante
+      FieldOrder:
+      - DynamicField_Subject
+      - DynamicField_etapadeAvaliacao
+      - Article
+      Fields:
+        Article:
+          Config:
+            ArticleType: 'Relato-comunicante '
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+        DynamicField_Subject:
+          DefaultValue: Relato Comunicante
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '1'
+        DynamicField_etapadeAvaliacao:
+          DefaultValue: ''
+          DescriptionLong: ''
+          DescriptionShort: ''
+          Display: '2'
+      Interface:
+      - AgentInterface
+      Permission: rw
+      RequiredLock: '0'
+      SubmitAdviceText: ''
+      SubmitButtonText: ''
+    CreateTime: 2017-08-14 07:58:29
+    EntityID: ActivityDialog-fa3831cb9c00165663d2474a0f46e89c
+    ID: '4'
+    Name: Enviar Andamento ao Comunicante
+Process:
+  Activities:
+  - Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad
+  - Activity-36f50f5d6bada897e36db20d743ecb08
+  - Activity-49088cf93d719043d0db1a7db3ec4ff2
+  - Activity-86792533214e2fc3eb1ff13026f08fc4
+  - Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f
+  - Activity-b7cd6d6432537d2378b65c7505acb29e
+  - Activity-e6b9b84754d40051e2cad3959c6afde1
+  - Activity-ec5f2ac8f613e458d375be385c30e9b2
+  ChangeTime: 2017-08-31 16:47:47
+  Config:
+    Description: Processo para acompanhamento de registros junto ao canal ético
+    Path:
+      Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad:
+        Transition-105cd98a556376d13eb0ca03970fb04e:
+          ActivityEntityID: Activity-86792533214e2fc3eb1ff13026f08fc4
+          TransitionAction:
+          - TransitionAction-c9857abf02c39f93e1e935906d23d560
+          - TransitionAction-75b748e4abe59658382baac3fff91b03
+        Transition-18c408dcb76be7a8c4c73f678a8ec794:
+          ActivityEntityID: Activity-e6b9b84754d40051e2cad3959c6afde1
+        Transition-71a310aaf4f9ac845cba7aa8d0552ece:
+          ActivityEntityID: Activity-36f50f5d6bada897e36db20d743ecb08
+      Activity-36f50f5d6bada897e36db20d743ecb08:
+        Transition-71a310aaf4f9ac845cba7aa8d0552ece:
+          ActivityEntityID: Activity-49088cf93d719043d0db1a7db3ec4ff2
+          TransitionAction: []
+        Transition-cdb960bbd800506d2c92a2db0e7a2bed:
+          ActivityEntityID: Activity-b7cd6d6432537d2378b65c7505acb29e
+          TransitionAction: []
+      Activity-49088cf93d719043d0db1a7db3ec4ff2:
+        Transition-2f4befc40c35cf83929d8f0ad295a6d5:
+          ActivityEntityID: Activity-36f50f5d6bada897e36db20d743ecb08
+          TransitionAction: []
+      Activity-86792533214e2fc3eb1ff13026f08fc4: {}
+      Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f:
+        Transition-772d8338f79fc4b76187766d1ed94b1f:
+          ActivityEntityID: Activity-49088cf93d719043d0db1a7db3ec4ff2
+          TransitionAction: []
+      Activity-b7cd6d6432537d2378b65c7505acb29e:
+        Transition-6b455425075e50602305d64beab1dac7:
+          ActivityEntityID: Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad
+          TransitionAction: []
+        Transition-71a310aaf4f9ac845cba7aa8d0552ece:
+          ActivityEntityID: Activity-36f50f5d6bada897e36db20d743ecb08
+          TransitionAction: []
+      Activity-e6b9b84754d40051e2cad3959c6afde1:
+        Transition-105cd98a556376d13eb0ca03970fb04e:
+          ActivityEntityID: Activity-86792533214e2fc3eb1ff13026f08fc4
+          TransitionAction:
+          - TransitionAction-c9857abf02c39f93e1e935906d23d560
+          - TransitionAction-75b748e4abe59658382baac3fff91b03
+      Activity-ec5f2ac8f613e458d375be385c30e9b2:
+        Transition-116307a3a0f7755945f80e7fb6497c36:
+          ActivityEntityID: Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f
+          TransitionAction: []
+    StartActivity: Activity-ec5f2ac8f613e458d375be385c30e9b2
+    StartActivityDialog: ActivityDialog-eb3f8433340955e7b7c25877f5ec027d
+  CreateTime: 2017-08-13 18:36:19
+  EntityID: Process-c4920c76455d91a76db37792d537477c
+  ID: '1'
+  Layout:
+    Activity-257bed3c5f2eb98b5f7f7c56d3bf3bad:
+      left: '1151'
+      top: '304'
+    Activity-36f50f5d6bada897e36db20d743ecb08:
+      left: '834'
+      top: '191'
+    Activity-49088cf93d719043d0db1a7db3ec4ff2:
+      left: '556'
+      top: '0'
+    Activity-86792533214e2fc3eb1ff13026f08fc4:
+      left: '1152'
+      top: '507'
+    Activity-aa32c9ad7cc4269d89d8f91a9eb7e69f:
+      left: '345'
+      top: '111'
+    Activity-b7cd6d6432537d2378b65c7505acb29e:
+      left: '1146'
+      top: '109'
+    Activity-e6b9b84754d40051e2cad3959c6afde1:
+      left: '782'
+      top: '304'
+    Activity-ec5f2ac8f613e458d375be385c30e9b2:
+      left: '92'
+      top: '110'
+  Name: Canal Ético
+  State: Active
+  StateEntityID: S1
+  TransitionActions:
+  - TransitionAction-75b748e4abe59658382baac3fff91b03
+  - TransitionAction-c9857abf02c39f93e1e935906d23d560
+  - TransitionAction-75b748e4abe59658382baac3fff91b03
+  - TransitionAction-c9857abf02c39f93e1e935906d23d560
+  Transitions:
+  - Transition-105cd98a556376d13eb0ca03970fb04e
+  - Transition-18c408dcb76be7a8c4c73f678a8ec794
+  - Transition-71a310aaf4f9ac845cba7aa8d0552ece
+  - Transition-71a310aaf4f9ac845cba7aa8d0552ece
+  - Transition-cdb960bbd800506d2c92a2db0e7a2bed
+  - Transition-2f4befc40c35cf83929d8f0ad295a6d5
+  - Transition-772d8338f79fc4b76187766d1ed94b1f
+  - Transition-6b455425075e50602305d64beab1dac7
+  - Transition-71a310aaf4f9ac845cba7aa8d0552ece
+  - Transition-105cd98a556376d13eb0ca03970fb04e
+  - Transition-116307a3a0f7755945f80e7fb6497c36
+TransitionActions:
+  TransitionAction-75b748e4abe59658382baac3fff91b03:
+    ChangeTime: 2017-08-14 08:47:43
+    Config:
+      Config:
+        Lock: unlock
+      Module: Kernel::System::ProcessManagement::TransitionAction::TicketLockSet
+    CreateTime: 2017-08-14 08:47:43
+    EntityID: TransitionAction-75b748e4abe59658382baac3fff91b03
+    ID: '2'
+    Name: Desbloquear chamado
+  TransitionAction-c9857abf02c39f93e1e935906d23d560:
+    ChangeTime: 2017-08-14 08:38:21
+    Config:
+      Config:
+        State: closed successful
+      Module: Kernel::System::ProcessManagement::TransitionAction::TicketStateSet
+    CreateTime: 2017-08-14 08:38:21
+    EntityID: TransitionAction-c9857abf02c39f93e1e935906d23d560
+    ID: '1'
+    Name: Fechar com Sucesso
+Transitions:
+  Transition-105cd98a556376d13eb0ca03970fb04e:
+    ChangeTime: 2017-08-14 08:45:13
+    Config:
+      Condition:
+        '1':
+          Fields:
+            DynamicField_encerramantoComunicacao:
+              Match: Sim
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-14 08:37:20
+    EntityID: Transition-105cd98a556376d13eb0ca03970fb04e
+    ID: '7'
+    Name: Fechamento
+  Transition-116307a3a0f7755945f80e7fb6497c36:
+    ChangeTime: 2017-08-13 18:53:45
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Classificar relato
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-13 18:53:45
+    EntityID: Transition-116307a3a0f7755945f80e7fb6497c36
+    ID: '1'
+    Name: Classificar relato
+  Transition-18c408dcb76be7a8c4c73f678a8ec794:
+    ChangeTime: 2017-08-14 08:29:54
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Acompanhamento de medidas
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-14 08:29:54
+    EntityID: Transition-18c408dcb76be7a8c4c73f678a8ec794
+    ID: '6'
+    Name: Acompanhamento de medidas
+  Transition-2f4befc40c35cf83929d8f0ad295a6d5:
+    ChangeTime: 2017-08-14 08:16:20
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Apuração
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-13 19:53:05
+    EntityID: Transition-2f4befc40c35cf83929d8f0ad295a6d5
+    ID: '3'
+    Name: Apuração
+  Transition-6b455425075e50602305d64beab1dac7:
+    ChangeTime: 2017-08-14 08:23:55
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Parecer comitê
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-14 08:23:55
+    EntityID: Transition-6b455425075e50602305d64beab1dac7
+    ID: '5'
+    Name: Parecer Comitê
+  Transition-71a310aaf4f9ac845cba7aa8d0552ece:
+    ChangeTime: 2017-08-30 18:25:12
+    Config:
+      Condition:
+        '1':
+          Fields:
+            DynamicField_retornaApuracao:
+              Match: Sim
+              Type: String
+            State:
+              Match: Apuração
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-14 08:52:43
+    EntityID: Transition-71a310aaf4f9ac845cba7aa8d0552ece
+    ID: '8'
+    Name: Retorna Apuração
+  Transition-772d8338f79fc4b76187766d1ed94b1f:
+    ChangeTime: 2017-08-13 19:44:11
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Intimação
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-13 19:43:07
+    EntityID: Transition-772d8338f79fc4b76187766d1ed94b1f
+    ID: '2'
+    Name: Intimação
+  Transition-cdb960bbd800506d2c92a2db0e7a2bed:
+    ChangeTime: 2017-08-14 08:07:51
+    Config:
+      Condition:
+        '1':
+          Fields:
+            State:
+              Match: Parecer compliance
+              Type: String
+          Type: and
+      ConditionLinking: and
+    CreateTime: 2017-08-14 08:07:51
+    EntityID: Transition-cdb960bbd800506d2c92a2db0e7a2bed
+    ID: '4'
+    Name: Parecer Compliance
