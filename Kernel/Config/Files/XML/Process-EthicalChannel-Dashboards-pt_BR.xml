@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="DashboardBackend###920-EthicalChannel" Required="0" Valid="1">
+        <Description Translatable="1">Parameters for the dashboard backend of the new tickets overview of the agent interface. "Limit" is the number of entries shown by default. "Group" is used to restrict the access to the plugin (e. g. Group: admin;group1;group2;). "Default" determines if the plugin is enabled by default or if the user needs to enable it manually. "CacheTTLLocal" is the cache time in minutes for the plugin.</Description>
+        <Navigation>GraphicalDashboards</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::Output::HTML::Ligero::DashboardComplementoWidgets</Item>
+                <Item Key="Widgets">2</Item>
+                <Item Key="Title">Visão Geral da Ouvidoria</Item>
+                <Item Key="Block">ContentLarge</Item>
+                <Item Key="Group"></Item>
+                <Item Key="Description">Indicadores das Denúncias</Item>
+                <Item Key="CacheTTLLocal">0</Item>
+                <Item Key="CacheTTLLocalAddRandom">0</Item>
+                <Item Key="Permission">rw</Item>
+                <Item Key="Widget 1">
+                    <Hash>
+                        <Item Key="1-Title">Localidade</Item>
+                        <Item Key="2-WidgetType">Kernel::Output::HTML::Ligero::DashboardComplementoPieDrilldown</Item>
+                        <Item Key="3-Filter">TypeIDs=7;</Item>
+                        <Item Key="4-WidgetOptions">Translate=1;DynamicFields=1;xAxis=DynamicField_LocalDenuncia</Item>
+                    </Hash>
+                </Item>
+                <Item Key="Widget 2">
+                    <Hash>
+                        <Item Key="1-Title">Classificação</Item>
+                        <Item Key="2-WidgetType">Kernel::Output::HTML::Ligero::DashboardComplementoPieDrilldown</Item>
+                        <Item Key="3-Filter">TypeIDs=7;</Item>
+                        <Item Key="4-WidgetOptions">DynamicFields=1;yAxis=DynamicField_LocalDenuncia;xAxis=DynamicField_TipoDenuncia;Translate=1</Item>
+                    </Hash>
+                </Item>
+                <Item Key="Widget 3">
+                    <Hash>
+                        <Item Key="1-Title">Open Tickets</Item>
+                        <Item Key="2-WidgetType">Kernel::Output::HTML::Ligero::DashboardComplementoQueuePie</Item>
+                        <Item Key="3-Filter">TypeIDs=7;</Item>
+                        <Item Key="4-WidgetOptions"></Item>
+                    </Hash>
+                </Item>
+                <Item Key="Widget 4">
+                    <Hash>
+                        <Item Key="1-Title">Open Tickets</Item>
+                        <Item Key="2-WidgetType">Kernel::Output::HTML::Ligero::DashboardComplementoQueuePie</Item>
+                        <Item Key="3-Filter">TypeIDs=7;</Item>
+                        <Item Key="4-WidgetOptions"></Item>
+                    </Hash>
+                </Item>
+                <Item Key="Mandatory">0</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="DashboardBackend###921-EthicalChannelOverview" Required="0" Valid="1">
+        <Description Translatable="1">Overview of the tickets in specific queues. "CacheTTLLocal" is the cache time in minutes for the plugin.</Description>
+        <Navigation>OverviewBars</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::Output::HTML::Ligero::DashboardComplementoOverview</Item>
+                <Item Key="Title">Indicadores do Canal Ético</Item>
+                <Item Key="Permission">rw</Item>
+                <Item Key="Block">ContentLarge</Item>
+                <Item Key="ConfigKey">ComplementoDashboardsOverview921</Item>
+                <Item Key="Group"></Item>
+                <Item Key="Description">Overview of the current tickets in the system</Item>
+                <Item Key="CacheTTLLocal">0</Item>
+                <Item Key="Mandatory">0</Item>
+            </Hash>
+        </Value>
+    </Setting>
+     <Setting Name="ComplementoDashboardsOverview921###001" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Classificação</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=13</Item>
+            </Hash>
+        </Value>
+    </Setting>
+     <Setting Name="ComplementoDashboardsOverview921###002" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Intimação</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=14</Item>
+            </Hash>
+        </Value>
+    </Setting>
+     <Setting Name="ComplementoDashboardsOverview921###003" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Apuração</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=12</Item>
+            </Hash>
+        </Value>
+    </Setting>
+
+    <Setting Name="ComplementoDashboardsOverview921###004" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Parecer Compliance</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=16</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="ComplementoDashboardsOverview921###005" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Parecer Comitê</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=15</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="ComplementoDashboardsOverview921###006" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Acompanhamento de Medidas</Item>
+                <Item Key="Filter">TypeIDs=7;StateIDs=11</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="ComplementoDashboardsOverview921###007" Required="0" Valid="1">
+        <Description Translatable="1">Complemento Overview Dashboard config</Description>
+        <Navigation>OverviewBars::Itens::EthicalChannel01</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Theme"></Item>
+                <Item Key="Label">Encerrados</Item>
+                <Item Key="Filter">TypeIDs=7;QueueIDs=12</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>

@@ -3,7 +3,7 @@ package var::processes::examples::Ethical_Channel_pre;
 
 use strict;
 use warnings;
-
+use utf8;
 use base qw(var::processes::examples::Base);
 
 our @ObjectDependencies = ();
@@ -24,6 +24,64 @@ sub Run {
     my %Response = (
         Success => 1,
     );
+
+
+
+	my @Types = (
+		"Denúncia",
+	);
+
+	for (@Types){
+		$Kernel::OM->Get('Kernel::System::Type')->TypeAdd(
+			Name    => $_,
+			ValidID => 1,
+			UserID  => 1,
+		);
+	}
+
+	my @Queues = (
+		"Canal Ético",
+		"Canal Ético::Classificar relato",
+		"Canal Ético::Intimação",
+		"Canal Ético::Apuração",
+		"Canal Ético::Parecer compliance",
+		"Canal Ético::Parecer comitê",
+		"Canal Ético::Acompanhamento de medidas",
+		"Canal Ético::Fechamento",
+	);
+	for (@Queues){
+		$Kernel::OM->Get('Kernel::System::Queue')->QueueAdd(
+        Name                => $_,
+        ValidID             => 1,
+        GroupID             => 1,
+        SystemAddressID     => 1,
+        SalutationID        => 1,
+        SignatureID         => 1,
+        Comment             => $_,
+        UserID              => 1,
+    	);
+	}
+
+	my @States = (
+		"Acompanhamento de medidas",
+		"Apuração",
+		"Classificar relato",
+		"Intimação",
+		"Parecer comitê",
+		"Parecer compliance",
+	);
+
+	for (@States) {
+		$Kernel::OM->Get('Kernel::System::State')->StateAdd(
+        Name    => $_,
+        Comment => $_,
+        ValidID => 1,
+        TypeID  => 2,
+        UserID  => 1,
+    	);
+	}
+
+
     my @DynamicFields = (
 	{
 		Name => 'Subject',
@@ -58,6 +116,16 @@ sub Run {
 				'Sim' => 'Sim',
 				'Não' => 'Não',
 			}
+		}
+	},
+	{
+		Name => 'Solicitacao',
+		Label => 'Solicitação',
+		FieldType => 'TextArea',
+		ObjectType => 'Ticket',
+		FieldOrder => '18',
+		Config => {
+	Cols => '',
 		}
 	},
 	{
@@ -110,6 +178,7 @@ sub Run {
 		ObjectType => 'Ticket',
 		FieldOrder => '3',
 		Config => {
+			PossibleNone => 1,
 			PossibleValues => {
 				'Filial Rio de Janeiro' => 'Filial Rio de Janeiro',
 				'Filial São Paulo' => 'Filial São Paulo',
@@ -148,12 +217,41 @@ sub Run {
 		}
 	},
 	{
+		Name => 'TipoDenuncia',
+		Label => 'Tipo de Denúncia/Reclamação',
+		FieldType => 'Dropdown',
+		ObjectType => 'Ticket',
+		FieldOrder => '7',
+		Config => {
+			PossibleNone => 1,
+			PossibleValues => {
+				'Agressão Física e/ou Verbal' => 'Agressão Física e/ou Verbal',
+				'Assédio Moral' => 'Assédio Moral',
+				'Assédio Sexual' => 'Assédio Sexual',
+				'Corrupção' => 'Corrupção',
+				'Discriminação' => 'Discriminação',
+				'Erro Médico' => 'Erro Médico',
+				'Estupro' => 'Estupro',
+				'Furto' => 'Furto',
+				'Maus Tratos' => 'Maus Tratos',
+				'Nova Categoria' => 'Nova Categoria',
+				'Omissão de Socorro' => 'Omissão de Socorro',
+				'Outro' => 'Outro',
+				'Pedofilia' => 'Pedofilia',
+				'Preconceito' => 'Preconceito',
+				'Problemas no Parto' => 'Problemas no Parto',
+				'Roubo' => 'Roubo'
+			}
+		}
+	},
+	{
 		Name => 'Unidade',
 		Label => 'Unidade do citado',
 		FieldType => 'Dropdown',
 		ObjectType => 'Ticket',
 		FieldOrder => '7',
 		Config => {
+			PossibleNone => 1,
 			PossibleValues => {
 				'Filial São Paulo' => 'Filial São Paulo',
 				'Filial Porto Alegre' => 'Filial Porto Alegre',

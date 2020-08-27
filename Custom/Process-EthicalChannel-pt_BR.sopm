@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>Process-EthicalChannel-pt_BR</Name>
+    <Version>6.0.0</Version>
+    <Vendor>LigeroSmart</Vendor>
+    <URL>http://www.ligerosmart.com/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Description Lang="en">Ethical Channel sample process with dynamic fields and other objects in Portuguese</Description>
+    <Description Lang="pt_BR">Processo Exemplo para Canal Ético ou Canal de Denúncias </Description>
+    <Framework>6.0.x</Framework>
+    <Filelist>
+      <File Location="Custom/Process-EthicalChannel-pt_BR.sopm" Permission="644"></File>
+      <File Location="Kernel/Config/Files/XML/Process-EthicalChannel-Dashboards-pt_BR.xml" Permission="644"></File>
+      <File Location="var/processes/examples/Ethical_Channel.yml" Permission="644"></File>
+      <File Location="var/processes/examples/Ethical_Channel_post.pm" Permission="644"></File>
+      <File Location="var/processes/examples/Ethical_Channel_pre.pm" Permission="644"></File>
+      <File Location="var/packagesetup/EthicalChannelNeedPackages/ComplementoChannel.opm" Permission="644"></File>
+      <File Location="var/packagesetup/EthicalChannelNeedPackages/FillProcessSubjectAndBody.opm" Permission="644"></File>
+      <File Location="var/packagesetup/EthicalChannelNeedPackages/FirstArticleToDynamicField.opm" Permission="644"></File>
+      <File Location="var/packagesetup/EthicalChannel.pm" Permission="644"></File>
+      <File Location="Kernel/Language/pt_BR_EthicalChannel.pm" Permission="644"></File>
+    </Filelist>
+    <CodeInstall Type="post"><![CDATA[
+            # create the package name
+            my $CodeModule = 'var::packagesetup::' . 'EthicalChannel';
+            $Kernel::OM->Get($CodeModule)->CodeInstall();
+        ]]></CodeInstall>
+        <CodeUpgrade Type="post"><![CDATA[
+            # create the package name
+            my $CodeModule = 'var::packagesetup::' . 'EthicalChannel';
+            # discard internally stored object, so that the next access to object creates them newly
+            $Kernel::OM->ObjectsDiscard(
+                Objects            => [$CodeModule],
+                ForcePackageReload => 1,
+            );
+            $Kernel::OM->Get($CodeModule)->CodeUpgrade();
+        ]]></CodeUpgrade>
+        <CodeUninstall Type="pre"><![CDATA[
+            # create the package name
+            my $CodeModule = 'var::packagesetup::' . 'EthicalChannel';
+            $Kernel::OM->Get($CodeModule)->CodeUninstall();
+        ]]></CodeUninstall>
+</otrs_package>
